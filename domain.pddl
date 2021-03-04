@@ -28,7 +28,7 @@
     :parameters (?amb - ambulancia ?pac - paciente ?l1 - localizacion ?hosp - hospital)
     :precondition (and
          (ubicacion_ambulancia ?amb ?l1) 
-         (ubicacion_paciente ?pac ?l1) }
+         (ubicacion_paciente ?pac ?l1)
          (not(paciente_hospital ?pac))
          (not(ambulancia_cargada ?amb))         
          )
