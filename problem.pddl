@@ -1,7 +1,7 @@
 (define (problem prob_actividad_3) (:domain dom_actividad_3)
 (:objects 
-    l_1 l_2 l_3 l_4 -localizacion
-    pac_1 pac_2 -paciente
+    l_1 l_2 l_3 l_4 - localizacion
+    pac_1 pac_2 - paciente
     amb - ambulancia
     hosp - hospital
 )
